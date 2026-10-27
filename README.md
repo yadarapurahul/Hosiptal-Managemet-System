@@ -49,28 +49,36 @@ The Hospital Management System provides REST APIs for managing core hospital ope
 ## 🏗️ Project Structure
 
 ```text
-HospitalManagement/
+Application/
+├── .mvn/
+├── image/
+│   └── ER-Diagram.png
 ├── src/
 │   ├── main/
 │   │   ├── java/
 │   │   │   └── HospitalManagement/
 │   │   │       └── Application/
+│   │   │           ├── API/
+│   │   │           ├── controller/
 │   │   │           ├── DTO/
+│   │   │           ├── entity/
 │   │   │           ├── Enum/
 │   │   │           ├── Exceptions/
-│   │   │           ├── entity/
 │   │   │           ├── repositry/
 │   │   │           ├── services/
-│   │   │           └── controller/
+│   │   │           └── Application.java
 │   │   └── resources/
+│   │       ├── static/
+│   │       ├── templates/
 │   │       └── application.properties
 │   └── test/
 ├── .gitignore
+├── HELP.md
+├── mvnw
+├── mvnw.cmd
 ├── pom.xml
 └── README.md
 ```
-
-*Note: Adjust package and folder names above to match the actual project structure.*
 
 ## 🗄️ Database Design
 
@@ -148,6 +156,13 @@ The exact endpoints depend on the mappings defined in the controllers.
 API testing has been performed using Postman for the four core modules.
 
 Further automated testing with JUnit and Mockito is planned.
+
+## 🗄️ Entity Relationship Diagram
+
+The following ER diagram illustrates the database structure and relationships
+between the Department, Doctor, Patient, and Appointment entities.
+
+![Hospital Management System ER Diagram](image/ER-Diagram.png)
 
 ## 🔮 Future Enhancements
 
