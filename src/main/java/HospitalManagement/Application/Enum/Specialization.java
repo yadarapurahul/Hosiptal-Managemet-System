@@ -1,0 +1,25 @@
+package HospitalManagement.Application.Enum;
+
+public enum Specialization {
+
+    CARDIOLOGY,
+    NEUROLOGY,
+    ORTHOPEDICS,
+    DERMATOLOGY,
+    PEDIATRICS,
+    GYNECOLOGY,
+    ONCOLOGY,
+    OPHTHALMOLOGY,
+    ENT,
+    PSYCHIATRY,
+    RADIOLOGY,
+    ANESTHESIOLOGY,
+    GASTROENTEROLOGY,
+    UROLOGY,
+    NEPHROLOGY,
+    PULMONOLOGY,
+    ENDOCRINOLOGY,
+    GENERAL_MEDICINE,
+    GENERAL_SURGERY,
+    EMERGENCY_MEDICINE
+}

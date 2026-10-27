@@ -1,0 +1,9 @@
+package HospitalManagement.Application.Enum;
+
+public enum DepartmentCategory {
+
+    CLINICAL_SERVICES,
+    DIAGNOSTICS_AND_CLINICAL_SUPPORT,
+    PATIENT_CARE_AND_HOSPITAL_OPERATIONS,
+    ADMINISTRATION_AND_CORPORATE_SERVICES
+}
